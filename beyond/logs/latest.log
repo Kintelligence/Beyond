@@ -1,1 +1,91 @@
-[16:40:38] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[16:54:29] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[16:56:09] [Server thread/INFO]: Loading properties
+[16:56:09] [Server thread/WARN]: server.properties does not exist
+[16:56:09] [Server thread/INFO]: Generating new properties file
+[16:56:09] [Server thread/INFO]: Default game type: SURVIVAL
+[16:56:09] [Server thread/INFO]: Generating keypair
+[16:56:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:56:09] [Server thread/INFO]: Using default channel type
+[16:56:41] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_111]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_111]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_187246_z(SourceFile:99) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:25) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_111]
+[16:56:41] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_111]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_111]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_187249_y(SourceFile:91) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:27) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_111]
+[16:56:41] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_111]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_111]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:107) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:29) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_111]
+[16:56:41] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_111]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_111]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_111]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72418_v(SourceFile:123) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:30) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_111]
+[16:56:42] [Server thread/INFO]: Preparing level "world"
+[16:56:44] [Server thread/INFO]: Preparing start region for level 0
+[16:56:45] [Server thread/INFO]: Preparing spawn area: 4%
+[16:56:47] [Server thread/INFO]: Preparing spawn area: 5%
+[16:56:49] [Server thread/INFO]: Preparing spawn area: 5%
+[16:56:51] [Server thread/INFO]: Preparing spawn area: 7%
+[16:56:53] [Server thread/INFO]: Preparing spawn area: 7%
+[16:56:56] [Server thread/INFO]: Preparing spawn area: 8%
+[16:56:57] [Server thread/INFO]: Preparing spawn area: 14%
+[16:56:58] [Server thread/INFO]: Preparing spawn area: 20%
+[16:56:59] [Server thread/INFO]: Preparing spawn area: 26%
+[16:57:00] [Server thread/INFO]: Preparing spawn area: 31%
+[16:57:01] [Server thread/INFO]: Preparing spawn area: 38%
+[16:57:02] [Server thread/INFO]: Preparing spawn area: 43%
+[16:57:03] [Server thread/INFO]: Preparing spawn area: 48%
+[16:57:04] [Server thread/INFO]: Preparing spawn area: 55%
+[16:57:06] [Server thread/INFO]: Preparing spawn area: 60%
+[16:57:07] [Server thread/INFO]: Preparing spawn area: 67%
+[16:57:08] [Server thread/INFO]: Preparing spawn area: 74%
+[16:57:09] [Server thread/INFO]: Preparing spawn area: 76%
+[16:57:10] [Server thread/INFO]: Preparing spawn area: 79%
+[16:57:11] [Server thread/INFO]: Preparing spawn area: 84%
+[16:57:12] [Server thread/INFO]: Preparing spawn area: 88%
+[16:57:14] [Server thread/INFO]: Preparing spawn area: 92%
+[16:57:15] [Server thread/INFO]: Preparing spawn area: 97%
+[16:57:15] [Server thread/INFO]: Done (33.782s)! For help, type "help" or "?"
+[16:57:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2155ms behind, skipping 43 tick(s)
+[16:58:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2877ms behind, skipping 57 tick(s)
+[17:01:53] [User Authenticator #1/INFO]: UUID of player Kintelligence is f5fca1de-4b49-4f30-bceb-f7c28d98a38c
+[17:01:54] [Server thread/INFO]: Kintelligence[/192.168.0.40:3654] logged in with entity id 2238 at (-224.5, 69.0, -11.5)
+[17:01:54] [Server thread/INFO]: Kintelligence joined the game
+[17:01:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3311ms behind, skipping 66 tick(s)
+[17:02:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 15372ms behind, skipping 307 tick(s)
+[17:03:03] [Server thread/INFO]: Kintelligence lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:03:03] [Server thread/INFO]: Kintelligence left the game
